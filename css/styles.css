@@ -137,4 +137,7 @@ font-size: 0.8rem;
   .content-tile{
     width: 100%;
   }
+  footer, .footer-left{
+    flex-direction: column;
+  }
 }
