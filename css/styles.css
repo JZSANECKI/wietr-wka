@@ -322,4 +322,7 @@ scale:2;
   .gallery:hover{
     opacity:1;
   }
+  .gallery-container{
+    width: 100%;
+  }
 }
