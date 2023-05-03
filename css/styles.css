@@ -75,6 +75,9 @@ width: 100%;
 .carousel-control-next,.carousel-control-prev{
 width:10%;  
 }
+.carousel-rooms{
+width: 50%;
+}
 .arrow-down{
   display: block;
   width:5%;
@@ -85,6 +88,9 @@ main{
 display: flex;
 flex-direction: column;  
 }
+.spacer-rooms{
+  height:200px;
+}
 .upper-content{
   width:87%;
   margin:auto;
@@ -92,7 +98,7 @@ flex-direction: column;
 .upper-content p{
 text-align: justify;
 }
-.middle-content{
+.middle-content,.middle-content-rooms{
   display: flex;
   flex-wrap: wrap;
   justify-content:space-evenly;
@@ -104,6 +110,21 @@ text-align: justify;
 }
 .content-tile img{
   width: 100%;
+}
+.middle-content-rooms{
+  flex-direction: row;
+}
+.content-tile-rooms{
+  width: 87%;
+display: flex;
+/* flex-grow: 1; */
+}
+.rooms-content-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+
 }
 .yellow-button{
 

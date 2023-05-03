@@ -28,8 +28,8 @@
           <img src="./img/logo.png" alt="" class="logo">
           
           <div class="nav-menu-desktop">
-          <a href="">strona główna</a>
-          <a href="">o nas</a>
+          <a href="./index.html">strona główna</a>
+          <a href="#">o nas</a>
           <a href="">pokoje</a>
           <a href="">galeria</a><a href="">okolica</a>
           <a href="">pracownia</a>
@@ -46,6 +46,7 @@
           <img class="arrow-down" src="./img/arrow-down.svg" alt="">
       </header>
       <main>
+        <div class="spacer-rooms"></div>
         <div class="upper-content">
 <h1>zatrzymaj się w wietrówce</h1>
 <p>Wietorówka to dom gościnny stworzony w wiekowym domostwie. Spodoba się każdemu, 
@@ -55,31 +56,62 @@
   znaleźć się w uroczym miasteczku i wypić kawę? Krótki spacer i już jesteś w Lubomierzu, 
   jednym z najmniejszych i najurokliwszych miasteczek w Polsce.</p>
 </div>
-<div class="middle-content">
-<div class="content-tile">
-  <img src="https://unsplash.it/800/600?random1" alt="">
+<div class="middle-content-rooms"> 
+<div class="content-tile-rooms">
+
+  <div id="carousel" class="carousel slide carousel-rooms" >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+      <div class="carousel-inner" >
+        <div class="carousel-item active">
+          <img src="https://unsplash.it/2000/900?random1" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+  <h3>Zapraszamy do sudeckiego domu</h3>
+  <p>na Pogórzu Izerskim.</p>
+</div>
+        </div>
+        <div class="carousel-item">
+          <img  src="https://unsplash.it/2000/900?random2" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+  <h3>Przestronne apartamenty</h3>
+  <p>urządziliśmy dla Was w wiekowych izbach.</p>
+</div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://unsplash.it/2000/900?random3" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+  <h3>Spacer do miasteczka zajmuje kilka minut</h3>
+  <p>- Lubomierz i XIII-wieczny klasztor widoczne z domu.</p>
+</div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="https://unsplash.it/2000/900?random3" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+  <h3>Duża stodoła</h3>
+  <p>jest zawsze otwarta na inicjatywy gości.</p>
+</div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  <div class="rooms-content-container">
   <h2>Lorem ipsum dolor sit amet.</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corrupti repellat voluptatem aspernatur natus commodi sed provident, velit impedit laudantium tenetur maxime nobis iste harum ut at qui? Numquam modi sequi id ratione voluptates voluptatem magnam consequatur architecto explicabo expedita!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corrupti repellat voluptatem aspernatur natus commodi sed provident, velit impedit laudantium tenetur maxime nobis iste harum ut at qui? Numquam modi sequi id ratione voluptates voluptatem magnam consequatur architecto explicabo expedita!</p></div>
 </div>
 
-<div class="content-tile">
-  <img src="https://unsplash.it/800/600?random2" alt="">
-  <h2>Lorem ipsum dolor sit amet.</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corrupti repellat voluptatem aspernatur natus commodi sed provident, velit impedit laudantium tenetur maxime nobis iste harum ut at qui? Numquam modi sequi id ratione voluptates voluptatem magnam consequatur architecto explicabo expedita!</p>
-</div>
 
-
-<div class="content-tile">
-  <img src="https://unsplash.it/800/600?random3" alt="">
-  <h2>Lorem ipsum dolor sit amet.</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corrupti repellat voluptatem aspernatur natus commodi sed provident, velit impedit laudantium tenetur maxime nobis iste harum ut at qui? Numquam modi sequi id ratione voluptates voluptatem magnam consequatur architecto explicabo expedita!</p>
-</div>
-
-<div class="content-tile">
-  <img src="https://unsplash.it/800/600?random4" alt="">
-  <h2>Lorem ipsum dolor sit amet.</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corrupti repellat voluptatem aspernatur natus commodi sed provident, velit impedit laudantium tenetur maxime nobis iste harum ut at qui? Numquam modi sequi id ratione voluptates voluptatem magnam consequatur architecto explicabo expedita!</p>
-</div>
 
 
 </div>
@@ -107,6 +139,6 @@
         </div>
       </footer>
     </div>
-    <script src="./js/main.js"></script>
+    <!-- <script src="./js/main.js"></script> -->
   </body>
 </html>
