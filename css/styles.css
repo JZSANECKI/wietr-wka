@@ -157,6 +157,20 @@ footer p{
 font-size: 0.8rem;
   padding: 0rem 1rem;
 }
+.map iframe{
+  width: 100%;
+  min-height: 80vh;
+  
+}
+.okolica{
+  width:87%;
+}
+.contact-section{
+align-items: center;
+display: flex;
+margin:auto;
+min-height: 50vh;
+}
 
 @media (width < 992px){
 .nav-menu-desktop{
