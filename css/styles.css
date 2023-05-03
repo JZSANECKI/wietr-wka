@@ -77,6 +77,7 @@ width:10%;
 }
 .carousel-rooms{
 width: 50%;
+
 }
 .arrow-down{
   display: block;
@@ -115,6 +116,7 @@ text-align: justify;
   flex-direction: row;
 }
 .content-tile-rooms{
+  padding:2rem 0;
   width: 87%;
 display: flex;
 /* flex-grow: 1; */
