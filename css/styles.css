@@ -215,4 +215,7 @@ min-height: 50vh;
   footer, .footer-left{
     flex-direction: column;
   }
+  .contact-section{
+    display: none;
+  }
 }
