@@ -19,11 +19,20 @@ h1{
 text-transform: uppercase;
 }
 nav{
-    margin-left: 20%;
-    padding:5vw 2rem 2vw 2rem;
+  
+  max-width: 1830px;  
+  width: 100%;
+  position: fixed;
+  background: white;
+  top: 0;
+  left:50%;
+  transform: translateX(-50%);
+  padding:5vw 2rem 2vw 2rem;
+  padding-left: 20%;
 display: flex;
 justify-content: space-between;
 align-items: center;
+z-index: 3;
 }
 nav a img{
 
@@ -61,6 +70,7 @@ header{
 }
 .carousel{
 width: 100%;
+
 
 
 }
@@ -131,6 +141,13 @@ font-size: 0.8rem;
   nav a{
     display: none;
   }
+  .logo{
+    position: absolute;
+    left:1rem;
+    top:0;
+    width: 50%;
+    z-index: 50;
+}
   .container{
     padding:0;
   }
