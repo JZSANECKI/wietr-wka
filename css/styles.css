@@ -79,6 +79,16 @@ width:10%;
 width: 50%;
 
 }
+.carousel-caption{
+bottom:50%;
+transform: translateY(50%);
+
+
+}
+.carousel-captions{
+width:80%;
+
+}
 .arrow-down{
   display: block;
   width:5%;
@@ -279,6 +289,9 @@ scale:2;
 }
 .about-us-header{
 
+}
+tbody{
+  background-color: red;
 }
 
 @media (width < 992px){
