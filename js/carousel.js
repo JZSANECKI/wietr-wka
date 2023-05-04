@@ -1,5 +1,5 @@
 const carouselContainer = document.querySelector(".carousel")
-const navigationContainer = document.querySelector("nav")
+const navigationContainer = document.querySelector(".nav-menu-desktop")
 
 if(window.innerWidth>992){
 carouselContainer.style.height = "calc( 100svh - " + navigationContainer.offsetHeight + "px - 50px)"

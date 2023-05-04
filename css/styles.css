@@ -93,21 +93,26 @@ flex-direction: column;
   height:200px;
 }
 .upper-content{
-  width:87%;
+  width:80%;
   margin:auto;
+  padding: 5rem 0;
 }
 .upper-content p{
 text-align: justify;
 }
+.middle-content{
+}
 .middle-content,.middle-content-rooms{
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-evenly;
+  justify-content:space-between;
 
 }
 .content-tile{
   padding: 2rem 0;
-  width: 40%;
+  width: 45%;
 }
 .content-tile img{
   width: 100%;
@@ -117,15 +122,15 @@ text-align: justify;
 }
 .content-tile-rooms{
   padding:2rem 0;
-  width: 87%;
+
 display: flex;
-/* flex-grow: 1; */
+
 }
 .rooms-content-container{
   display: flex;
   flex-direction: column;
   width: 50%;
-
+padding: 0 0 0 5rem;
 
 }
 .yellow-button{
@@ -163,7 +168,7 @@ font-size: 0.8rem;
   
 }
 .okolica{
-  width:87%;
+  width:100%;
 }
 .contact-section{
 align-items: center;
@@ -271,6 +276,9 @@ background-image: url(../img/icons/prev.svg);
 }
 .next-icon img{
 scale:2;
+}
+.about-us-header{
+
 }
 
 @media (width < 992px){
