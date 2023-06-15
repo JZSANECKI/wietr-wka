@@ -67,6 +67,9 @@ header{
   height:100%;
   width: 100%;
 }
+.carousel-room{
+  aspect-ratio: 4/3;
+}
 .carousel-item img{
   object-fit: cover;
   height:100%;
